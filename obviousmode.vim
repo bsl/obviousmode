@@ -1,7 +1,7 @@
 " ObviousMode: Clearly indicate visually whether Vim is in insert mode via the
 " StatusLine highlight group.
 "
-" 1.22, 2010.09.14
+" 1.23, 2011.10.12
 "
 " Brian Lewis <brian@lorf.org>
 " Sergey Vlasov <sergey.vlsv@gmail.com>
