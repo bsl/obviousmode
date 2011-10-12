@@ -7,6 +7,7 @@
 " Sergey Vlasov <sergey.vlsv@gmail.com>
 "
 " Thank you:
+"   Tom <tqueste@gmail.com>
 "   frogonwheels @ freenode #vim
 "   Markus Braun
 "   Erik Falor
@@ -27,23 +28,23 @@ if &cp || exists('g:loaded_obviousmode')
 endif
 
 if !exists('g:obviousModeInsertHi')
-    let g:obviousModeInsertHi = 'term=reverse ctermbg=52'
+    let g:obviousModeInsertHi = 'term=reverse ctermbg=52 guibg=darkred'
 endif
 
 if !exists('g:obviousModeCmdwinHi')
-    let g:obviousModeCmdwinHi = 'term=reverse ctermbg=22'
+    let g:obviousModeCmdwinHi = 'term=reverse ctermbg=22 guibg=darkblue'
 endif
 
 if !exists('g:obviousModeModifiedCurrentHi')
-    let g:obviousModeModifiedCurrentHi = 'term=reverse ctermbg=30'
+    let g:obviousModeModifiedCurrentHi = 'term=reverse ctermbg=30 guibg=darkcyan'
 endif
 
 if !exists('g:obviousModeModifiedNonCurrentHi')
-    let g:obviousModeModifiedNonCurrentHi = 'term=reverse ctermbg=30'
+    let g:obviousModeModifiedNonCurrentHi = 'term=reverse ctermbg=30 guibg=darkcyan'
 endif
 
 if !exists('g:obviousModeModifiedVertSplitHi')
-    let g:obviousModeModifiedVertSplitHi = 'term=reverse ctermfg=22 ctermbg=30'
+    let g:obviousModeModifiedVertSplitHi = 'term=reverse ctermfg=22 ctermbg=30 guifg=darkblue guibg=darkcyan'
 endif
 
 let s:isInsertMode = 0
