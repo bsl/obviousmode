@@ -67,6 +67,9 @@ function! s:SaveOriginalHi()
     " parse out attributes and values, put into dict
     let l:hlAttrs = copy(s:hlAttrs)
     for token in split(l:orig)[2:-1]
+        if (match(token, '=') < 0)
+            continue
+        endif
         let [attr, value] = split(token, '=')
         let l:hlAttrs[attr] = value
     endfor
