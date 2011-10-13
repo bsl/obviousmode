@@ -7,6 +7,7 @@
 " Sergey Vlasov <sergey.vlsv@gmail.com>
 "
 " Thank you:
+"   Salman Halim <salmanhalim@gmail.com>
 "   Tom <tqueste@gmail.com>
 "   frogonwheels @ freenode #vim
 "   Markus Braun
